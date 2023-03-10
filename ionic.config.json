@@ -1,0 +1,7 @@
+{
+  "name": "cs-keyboard-issue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
