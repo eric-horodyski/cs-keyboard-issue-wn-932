@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  vm = {
+    fields: ["field0"]
+  };
+  constructor() {
+    let i = 1;
+    while (i < 50) {
+      this.vm.fields.push("field-" + i.toString());
+      i++;
+    }
+  }
 
 }
