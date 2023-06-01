@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "cs.keyboard.issue"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "cs.keyboard.issue"
